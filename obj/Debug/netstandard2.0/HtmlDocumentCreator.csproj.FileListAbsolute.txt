@@ -1,0 +1,9 @@
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\bin\Debug\netstandard2.0\HtmlDocumentCreator.deps.json
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\bin\Debug\netstandard2.0\HtmlDocumentCreator.dll
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\bin\Debug\netstandard2.0\HtmlDocumentCreator.pdb
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\obj\Debug\netstandard2.0\HtmlDocumentCreator.csprojAssemblyReference.cache
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\obj\Debug\netstandard2.0\HtmlDocumentCreator.AssemblyInfoInputs.cache
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\obj\Debug\netstandard2.0\HtmlDocumentCreator.AssemblyInfo.cs
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\obj\Debug\netstandard2.0\HtmlDocumentCreator.csproj.CoreCompileInputs.cache
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\obj\Debug\netstandard2.0\HtmlDocumentCreator.dll
+C:\Users\brett.barnett\source\repos\StremeAutomationSolution\HtmlDocumentCreator\obj\Debug\netstandard2.0\HtmlDocumentCreator.pdb
