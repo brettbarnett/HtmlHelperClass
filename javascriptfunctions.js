@@ -249,7 +249,7 @@ function buildTableBody() {
             else {
                 tableData.innerHTML = Object.values(jsonObj)[y];
             }
-            if (jsonDataType === "StremeAutomation.LibreBarcode128String") {
+            if (jsonDataType === "LibreBarcode128String") {
                 tableData.classList.add("Barcode");
             }
 
