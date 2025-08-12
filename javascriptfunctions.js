@@ -246,11 +246,11 @@ function buildTableBody() {
             if (jsonDataType === "System.DateTime") {
                 tableData.innerHTML = formatDateTime(Object.values(jsonObj)[y]);
             }
+            else if (jsonDataType === "LibreBarcode128String") {
+                tableData.classList.add("Barcode");
+            }
             else {
                 tableData.innerHTML = Object.values(jsonObj)[y];
-            }
-            if (jsonDataType === "LibreBarcode128String") {
-                tableData.classList.add("Barcode");
             }
 
             if (hiddenColumns.includes(Object.keys(jsonArray[0])[y])) {
