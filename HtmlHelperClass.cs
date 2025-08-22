@@ -128,7 +128,7 @@ public static class HtmlHelperClass
 
         foreach (string line in htmlData)
         {
-            htmlWriter.WriteLine(line); ;
+            htmlWriter.WriteLine(line);
         }
     }
 

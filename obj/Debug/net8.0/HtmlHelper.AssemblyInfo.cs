@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HtmlHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86bd34f9f56cf4be147a9985b6a4d53daee92f47")]
 [assembly: System.Reflection.AssemblyProductAttribute("HtmlHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HtmlHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

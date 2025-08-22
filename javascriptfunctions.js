@@ -1,4 +1,4 @@
-const hiddenColumns = []; // Add column names to hide by default, e.g., ["Column1", "Column2"]
+const hiddenColumns = [];
 let TableLastSortedColumn = -1;
 function sortTable() {
     const sortColumn = parseInt(arguments[0]);
@@ -246,13 +246,20 @@ function buildTableBody() {
             if (jsonDataType === "System.DateTime") {
                 tableData.innerHTML = formatDateTime(Object.values(jsonObj)[y]);
             }
+            else if (jsonDataType === "System.Uri") {
+              const anchorTag = document.createElement("a");
+              anchorTag.href = Object.values(jsonObj)[y];
+              anchorTag.textContent = Object.values(jsonObj)[y];
+              anchorTag.target = "_blank";
+              tableData.appendChild(anchorTag);
+            }
+            else if (jsonDataType === "LibreBarcode128String") {
+                tableData.classList.add("Barcode");
+            }
             else {
                 tableData.innerHTML = Object.values(jsonObj)[y];
             }
-            if (jsonDataType === "StremeAutomation.LibreBarcode128String") {
-                tableData.classList.add("Barcode");
-            }
-
+            
             if (hiddenColumns.includes(Object.keys(jsonArray[0])[y])) {
                 tableData.classList.add("hiddenCell");
             }
