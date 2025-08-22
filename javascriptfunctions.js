@@ -259,7 +259,7 @@ function buildTableBody() {
             else {
                 tableData.innerHTML = Object.values(jsonObj)[y];
             }
-            
+
             if (hiddenColumns.includes(Object.keys(jsonArray[0])[y])) {
                 tableData.classList.add("hiddenCell");
             }
